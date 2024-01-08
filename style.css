@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 60px 0 50px;
+    background-color: #18191C;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+main,
+header {
+    width: 65%;
+    min-width: 550px;
+    max-width: 850px;
+    margin: auto;
+}
+
+main {
+    padding: 55px 40px;
+    background-color: #FFFFFF;
+    color: #665610;
+}
+
+main p {
+    line-height: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    padding: 25px 40px;
+    background-color: #18191C;
+    font-size: 0;
+}
+
+footer {
+    border-top: 1px solid currentColor;
+    margin-top: 30px;
+    padding: 10px 0;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+h1 {
+    margin-bottom: 17px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+p {
+    margin: 7px 0;
+    line-height: 1.4;
+}
+
+progress {
+    width: 100%;
+    height: 7px;
+    border: none;
+    background-color: #665610;
+}
+
+progress::-moz-progress-bar {
+    background-color: #FFD829;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #665610;
+}
+
+progress::-webkit-progress-value {
+    background-color: #FFD829;
+}
